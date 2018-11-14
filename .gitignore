@@ -66,21 +66,4 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
-.DS_Store
-.idea/
-WTMCodex-Kotlin-Sample.iml
-WTMCodexKotlin.iml
-app/.DS_Store
-app/.gitignore
-app/app.iml
-app/build.gradle
-app/libs/
-app/proguard-rules.pro
-app/release/
-app/src/
-build.gradle
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">WTMCodex Kotlin Sample</string>
+    <string name="search_github">Search Github users</string>
+    <string name="welcome_msg">Welcome to \n WTMCodex  \n Kotlin Sample</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="no_internet_connection_found">No Internet Connection found</string>
+    <string name="error_internal_server">Internal server error.</string>
+    <string name="no_results_for_search">No results for this search</string>
+    <string name="type_forbidden">You have reached daily limit.\n Please try after few moments</string>
+    <string name="type_for_search">Type something to search</string>
+    <string name="profile_lbl">Profile Link: </string>
+    <string name="score_lbl">Score: </string>
+    <string name="english_lbl">English</string>
+    <string name="finnish_lbl">Suomi</string>
+
+</resources>

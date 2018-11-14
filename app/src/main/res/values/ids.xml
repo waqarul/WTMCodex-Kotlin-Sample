@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="view_pager"></item>
+    <item type="id" name="tool_bar"></item>
+    <item type="id" name="tabs"></item>
+    <item type="id" name="summary_view"></item>
+    <item type="id" name="header_view"></item>
+    <item type="id" name="add_establishment_card"></item>
+    <item type="id" name="progress_view"></item>
+
+    <item type="id" name="pd_row_ll"></item>
+    <item type="id" name="pd_label"></item>
+    <item type="id" name="pd_value"></item>
+    <item type="id" name="pd_edit_value"></item>
+    <item type="id" name="pd_vf_value"></item>
+    <item type="id" name="pd_image"></item>
+    <item type="id" name="pd_image_text"></item>
+    <item type="id" name="pd_image_ll"></item>
+
+    <item type="id" name="error_image"></item>
+    <item type="id" name="error_text"></item>
+    <item type="id" name="error_layout"></item>
+</resources>

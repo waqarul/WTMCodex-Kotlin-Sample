@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:id="@id/tool_bar"--><!--android:layout_width="match_parent"--><!--android:layout_height="?attr/actionBarSize"--><!--android:theme="@style/AppTheme.AppBarOverlay"--><!--app:layout_scrollFlags="scroll|snap" />-->
+
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:tag="toolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp"
+    app:layout_collapseMode="pin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@drawable/search_box"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:id="@+id/search_box_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/search_github"
+                    android:imeOptions="actionSearch"
+                    android:paddingStart="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/colorGray"
+                    android:textColorHint="@color/colorPrimary"
+                    android:drawableStart="@drawable/search"
+                    android:drawablePadding="@dimen/margin_10"
+                    android:drawableTint="@color/colorPrimary"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/language_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/english_lbl"
+            android:textAppearance="@style/TextAppearance.Title"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
